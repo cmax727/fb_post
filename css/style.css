@@ -1,0 +1,222 @@
+* {
+ 	border: 0px;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+a:link, a:visited, a:active, a:hover{
+	text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+.center{
+    display: block;
+    margin: 30px auto 50px auto;
+}
+ @font-face {
+    font-family: 'MyriadPro';
+    src: url('MyriadPro-Regular.eot');
+    src: local('MyriadPro Regular'),
+        local('MyriadPro'),
+        url('MyriadPro-Regular.woff'),
+        url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro Semibold';
+    src: url('MyriadPro-Semibold.eot');
+    src: local('MyriadPro Semibold'),
+        url('MyriadPro-Semibold.woff'),
+        url('MyriadPro-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#container{
+    width: 770px;
+    padding: 0px 20px;
+    overflow: hidden;
+    font-family: Arial;
+}
+.home{
+    padding-top: 215px !important;
+    background: url(../images/home_bg.png) no-repeat;
+}
+#post-job{
+    margin-right: 25px;
+    float: right;
+    position: relative;
+    top: -15px;
+}
+.entry{
+    margin-bottom: 30px;
+}
+#job-top{
+    text-align: right;
+    margin-top: 32px;
+}
+.entry-content{
+    width: 746px;
+    padding: 15px 12px 25px 12px;
+    background: #F2F2F2;
+    border: 1px solid #ECECEC;
+    overflow: hidden;
+}
+.entry-top{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    background: #3D5AB8;
+    float: left;
+    margin-bottom: 4px;
+}
+.entry-content img{
+    float: left;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #c4cdea;
+}
+.entry-content p{
+    font-size: 13px;
+    text-align: justify;
+    margin: 5px auto 15px auto;
+}
+.entry-content p a{
+    text-decoration: underline;
+    color: #3E58B7;
+}
+.floated{
+    float: right;
+    width: 630px;
+}
+.entry-bottom{
+    background: url(../images/entry_bottom.png) no-repeat;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.entry-bottom .left{
+    width: 81px;
+    margin-left: 20px;
+    padding: 2px 0px 0px 9px;
+    background: url(../images/bottom_flag.png);
+    height: 52px;
+}
+.entry-bottom .left span{
+    font-size: 15px;
+    display: block;
+    font-family: 'MyriadPro Semibold';
+    margin-bottom: 6px;
+    text-align: center;
+    color: #fff;
+}
+.entry-bottom .right{
+    width: 500px;
+    margin: 10px;
+    text-align: right;
+}
+.entry-bottom .right a,#job-top a{
+    background: #3D9710;
+    color: #fff;
+    margin: 0px 3px;
+    font-size: 13px;
+    font-family: 'MyriadPro Semibold';
+    padding: 3px 6px;
+    text-transform: uppercase;
+}
+.entry-bottom .right a:hover,#job-top a:hover{
+    background: #71B155;
+}
+#pagi{
+    margin-bottom: 40px;
+    text-align: center;
+}
+#pagi li{
+    display: inline;
+}
+#pagi a,#pagi span{
+    color: #666;
+    font-size: 15px;
+    font-family: 'MyriadPro';
+}
+#pagi-prev,#pagi-next{
+    position: relative;
+    top: 1px;
+    margin: 0px 3px;
+}
+.field{
+    margin: 12px 0px 12px 20px;
+}
+.entry input.text{
+    height: 22px;
+    width: 400px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    line-height: 20px;
+}
+.textsmall{
+    width: 70px !important;
+}
+.entry .select1{
+    height: 23px;
+    width: 60px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.entry .select2{
+    height: 23px;
+    width: 90px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.entry textarea{
+    width: 600px;
+    border: 1px solid #ccc;
+    height: 80px;
+}
+label{
+    display: block;
+    font-size: 15px;
+}
+.error{
+    color: red;
+    display: inline !important;
+    font-size: 12px !important;
+}
+label span{
+    color: red;
+    padding-left: 4px;
+}
+fieldset{
+    border: 2px solid #aaa;
+}
+legend{
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+form p{
+    margin: 15px auto 15px 20px !important;
+    font-size: 12px;
+}
+input.jqInvalid,select.jqInvalid,textarea.jqInvalid{
+    background: #f4dee3;
+}
+label[generated="true"] {
+    display: inline !important;
+    color: red;
+    float: right;
+}

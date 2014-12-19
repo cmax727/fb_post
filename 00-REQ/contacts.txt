@@ -1,0 +1,30 @@
+database 
+--------
+phpamdin: http://li202-236.members.linode.com php my admin
+user: facebook
+password: KnuUnNsLVH6H4fxQ
+host: localhost
+
+
+SFTP - Use WinScp
+-----------------
+user : root
+password : pronotic!1!  
+directory is /srv/www/fb.productionnotices.com/public_html
+host is fb.productionnotices.com
+
+
+URL
+---
+fb.productionnotices.com/
+local.fb.com/
+
+
+
+    
+$attachment = array('message' => 'some meesgae',
+        'name' => 'JOB TITLE ',
+        'caption' => "www.productionnotices.com",
+        'link' => 'mylink.com',
+        'description' => 'JOB DESCRIPTION');
+$result = $facebook->api('/me/feed?access_token='.$access_token, 'post', $attachment);
